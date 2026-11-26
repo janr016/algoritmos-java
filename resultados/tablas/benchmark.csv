@@ -1,0 +1,81 @@
+Algoritmo,n,TipoDatos,Comparaciones,Movimientos,TiempoPromedioMs
+Bubble Sort,10,Ascendentes,9,0,0.0012
+Selection Sort,10,Ascendentes,45,0,0.0002
+Insertion Sort,10,Ascendentes,9,0,0.0001
+Shell Sort,10,Ascendentes,22,0,0.0001
+Bubble Sort,10,Descendentes,45,90,0.0042
+Selection Sort,10,Descendentes,45,10,0.0002
+Insertion Sort,10,Descendentes,45,54,0.0002
+Shell Sort,10,Descendentes,27,24,0.0002
+Bubble Sort,10,Aleatorios,45,50,0.0034
+Selection Sort,10,Aleatorios,45,18,0.0002
+Insertion Sort,10,Aleatorios,30,31,0.0001
+Shell Sort,10,Aleatorios,30,26,0.0002
+Bubble Sort,10,Repetidos,24,16,0.0017
+Selection Sort,10,Repetidos,45,14,0.0002
+Insertion Sort,10,Repetidos,16,15,0.0001
+Shell Sort,10,Repetidos,25,7,0.0001
+Bubble Sort,10,Casi ordenados,30,10,0.0004
+Selection Sort,10,Casi ordenados,45,2,0.0002
+Insertion Sort,10,Casi ordenados,14,8,0.0000
+Shell Sort,10,Casi ordenados,27,9,0.0001
+Bubble Sort,100,Ascendentes,99,0,0.0009
+Selection Sort,100,Ascendentes,4950,0,0.0048
+Insertion Sort,100,Ascendentes,99,0,0.0003
+Shell Sort,100,Ascendentes,503,0,0.0015
+Bubble Sort,100,Descendentes,4950,9900,0.0467
+Selection Sort,100,Descendentes,4950,100,0.0076
+Insertion Sort,100,Descendentes,4950,5049,0.0032
+Shell Sort,100,Descendentes,668,516,0.0019
+Bubble Sort,100,Aleatorios,4905,4890,0.9364
+Selection Sort,100,Aleatorios,4950,186,0.0066
+Insertion Sort,100,Aleatorios,2542,2537,0.0058
+Shell Sort,100,Aleatorios,918,688,0.0040
+Bubble Sort,100,Repetidos,4922,5124,0.0712
+Selection Sort,100,Repetidos,4950,170,0.0069
+Insertion Sort,100,Repetidos,2660,2647,0.0023
+Shell Sort,100,Repetidos,723,438,0.0025
+Bubble Sort,100,Casi ordenados,4625,670,0.0394
+Selection Sort,100,Casi ordenados,4950,10,0.0119
+Insertion Sort,100,Casi ordenados,434,408,0.0010
+Shell Sort,100,Casi ordenados,696,304,0.0037
+Bubble Sort,1000,Ascendentes,999,0,0.1636
+Selection Sort,1000,Ascendentes,499500,0,0.5639
+Insertion Sort,1000,Ascendentes,999,0,0.0021
+Shell Sort,1000,Ascendentes,8006,0,0.0299
+Bubble Sort,1000,Descendentes,499500,999000,1.3506
+Selection Sort,1000,Descendentes,499500,1000,5.1743
+Insertion Sort,1000,Descendentes,499500,500499,0.6248
+Shell Sort,1000,Descendentes,11716,9072,0.0340
+Bubble Sort,1000,Aleatorios,499004,507588,2.2723
+Selection Sort,1000,Aleatorios,499500,1984,0.6330
+Insertion Sort,1000,Aleatorios,254790,254790,0.1885
+Shell Sort,1000,Aleatorios,15392,11932,0.1650
+Bubble Sort,1000,Repetidos,495035,494046,3.7753
+Selection Sort,1000,Repetidos,499500,1970,0.9367
+Insertion Sort,1000,Repetidos,248017,248011,0.1451
+Shell Sort,1000,Repetidos,13233,8956,0.1072
+Bubble Sort,1000,Casi ordenados,497547,64804,0.7326
+Selection Sort,1000,Casi ordenados,499500,100,0.8877
+Insertion Sort,1000,Casi ordenados,33399,33387,0.0267
+Shell Sort,1000,Casi ordenados,12170,6854,0.0718
+Bubble Sort,10000,Ascendentes,9999,0,0.0090
+Selection Sort,10000,Ascendentes,49995000,0,52.2408
+Insertion Sort,10000,Ascendentes,9999,0,0.0161
+Shell Sort,10000,Ascendentes,120005,0,0.3180
+Bubble Sort,10000,Descendentes,49995000,99990000,106.6255
+Selection Sort,10000,Descendentes,49995000,10000,73.5268
+Insertion Sort,10000,Descendentes,49995000,50004999,26.7355
+Shell Sort,10000,Descendentes,172578,124592,0.4730
+Bubble Sort,10000,Aleatorios,49979600,50075694,167.2771
+Selection Sort,10000,Aleatorios,49995000,19984,31.5776
+Insertion Sort,10000,Aleatorios,25047837,25047834,10.2690
+Shell Sort,10000,Aleatorios,263917,207399,1.1589
+Bubble Sort,10000,Repetidos,49972209,49441592,149.6017
+Selection Sort,10000,Repetidos,49995000,19972,31.6756
+Insertion Sort,10000,Repetidos,24730791,24730777,9.2724
+Shell Sort,10000,Repetidos,244394,179715,1.0770
+Bubble Sort,10000,Casi ordenados,49919145,6131036,37.6064
+Selection Sort,10000,Casi ordenados,49995000,1000,32.7484
+Insertion Sort,10000,Casi ordenados,3075517,3075486,1.1965
+Shell Sort,10000,Casi ordenados,214172,138428,0.8531

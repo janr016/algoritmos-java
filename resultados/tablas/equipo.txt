@@ -1,0 +1,5 @@
+Sistema operativo : Windows 11 10.0 (amd64)
+Procesadores logicos: 4
+Memoria maxima JVM : 4072 MB
+Java              : 21.0.2+13-58 (Oracle Corporation)
+Ejecuciones por combinacion: 5 (mas 3 de calentamiento)
