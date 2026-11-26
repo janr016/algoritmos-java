@@ -2,7 +2,7 @@ package ec.edu.uce.algoritmos;
 
 import java.util.Scanner;
 
-/** Console application entry point. Options 4-5 are added in later phases. */
+/** Console application entry point. Option 5 is added in a later phase. */
 public class Main {
 
     public static void main(String[] args) {
@@ -23,7 +23,8 @@ public class Main {
                 case "1" -> ComplexityDemo.run();
                 case "2" -> IterationRecursionDemo.run();
                 case "3" -> SortingDemo.run();
-                case "4", "5" -> System.out.println("Not available yet (coming in a later phase).");
+                case "4" -> BenchmarkDemo.run();
+                case "5" -> System.out.println("Not available yet (coming in a later phase).");
                 case "0" -> running = false;
                 default -> System.out.println("Invalid option: " + option);
             }
@@ -37,7 +38,7 @@ public class Main {
         System.out.println("1. Complexity analysis");
         System.out.println("2. Iterative vs recursive");
         System.out.println("3. Sorting algorithms");
-        System.out.println("4. Benchmark              (coming soon)");
+        System.out.println("4. Benchmark");
         System.out.println("5. Stability demo         (coming soon)");
         System.out.println("0. Exit");
         System.out.print("Choose an option: ");
