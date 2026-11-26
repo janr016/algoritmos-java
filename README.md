@@ -36,7 +36,7 @@ Class names are written in English. All classes belong to the `ec.edu.uce.algori
 | `Benchmark.java` | `Benchmark.java` |
 | `Main.java` | `Main.java` |
 
-## Repository Structure
+## Repository Structure (folder tree)
 
 ```
 algoritmos-java/
@@ -55,11 +55,10 @@ algoritmos-java/
 
 ## Requirements
 
-- Java 21 or higher (the project compiles with `maven.compiler.release = 21`)
-- Maven 3.9+
-- Git
+(Java 21, Maven 3.9+, Git).
 
 ## Build, Test, and Run
+with the three commands, the menu table (options 1 to 5 and 0), and the notice: the options write to results/ and overwrite the CSV files and charts; run from a temporary folder.
 
 ```bash
 mvn clean compile                                   # compile
