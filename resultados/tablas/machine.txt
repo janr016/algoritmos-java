@@ -1,0 +1,11 @@
+Date: 2026-11-25T19:10:59
+Operating system: Mac OS X 15.8.2 (x86_64)
+Processor: Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz
+Logical processors: 12
+Physical memory: 34.4 GB
+Java: 24.0.1 (Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation)
+Maximum JVM heap: 8.6 GB
+Sizes: [10, 100, 1000, 10000]
+Repetitions per combination: 5
+Warm-up: yes, before measuring
+Random seed: 20261125

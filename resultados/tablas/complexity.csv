@@ -1,0 +1,13 @@
+algorithm;n;theoretical;measured;match
+A;10;10;10;true
+A;100;100;100;true
+A;1000;1000;1000;true
+A;10000;10000;10000;true
+B;10;90;90;true
+B;100;9900;9900;true
+B;1000;999000;999000;true
+B;10000;99990000;99990000;true
+C;10;3;3;true
+C;100;6;6;true
+C;1000;9;9;true
+C;10000;13;13;true
