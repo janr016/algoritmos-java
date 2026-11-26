@@ -16,7 +16,9 @@ import java.util.function.Consumer;
  * - The data is generated once per (size, type) and OUTSIDE the timing; the four algorithms
  *   receive the very same array (each one sorts its own copy, made before the clock starts).
  * - The clock (System.nanoTime) runs only around the sorting loops, inside Sorting.
- * - A warm-up phase runs first so the JVM has already compiled the code when we measure.
+ * - A warm-up phase runs first so the JVM has already compiled the code when we measure, and
+ *   each combination also gets a few untimed runs right before it is timed (the first run of
+ *   a new data pattern is slower and would distort the average of very short sorts).
  * - Each combination is run several times and the times are averaged.
  * - Comparisons and moves must be identical in every repetition (they are deterministic);
  *   if not, the benchmark stops with an error.
@@ -29,6 +31,7 @@ public final class Benchmark {
     public static final long SEED = 20261125L;
 
     private static final int WARM_UP_ROUNDS = 30;
+    private static final int UNTIMED_RUNS = 3; // extra runs of each combination before timing it
     private static final String[] NAMES = {"Bubble Sort", "Selection Sort", "Insertion Sort", "Shell Sort"};
 
     private interface Algorithm {
@@ -82,6 +85,9 @@ public final class Benchmark {
     }
 
     private static BenchmarkRow measure(int a, int n, DataType type, int[] data, int repetitions) {
+        for (int i = 0; i < UNTIMED_RUNS; i++) {
+            ALGORITHMS[a].sort(data); // result and time are discarded
+        }
         SortResult first = ALGORITHMS[a].sort(data);
         if (!SortVerifier.isSorted(first.sorted()) || !SortVerifier.isPermutation(data, first.sorted())) {
             throw new IllegalStateException(NAMES[a] + " gave a wrong result for n=" + n + ", " + type.label());
