@@ -5,6 +5,7 @@ package ec.edu.uce.algoritmos;
  * It exists ONLY for the stability demo: the official algorithms (Sorting) stay clean and
  * work on int[]. The loops are identical; only a[x] > a[y] became a[x].grade() > a[y].grade().
  * Each method works on a copy and returns the sorted copy.
+ 
  */
 public final class StudentSorting {
 
@@ -29,7 +30,7 @@ public final class StudentSorting {
         return a;
     }
 
-    /** The long-distance swap can jump over an equal element, so Selection is NOT stable. */
+    /** The long-distance swap can jump over an equal element, so Selection is NOT stable.    */
     public static Student[] selectionSort(Student[] input) {
         Student[] a = input.clone();
         for (int i = 0; i < a.length - 1; i++) {
